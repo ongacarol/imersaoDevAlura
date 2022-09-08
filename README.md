@@ -8,6 +8,7 @@ Aula 2 - CONVERSOR DE MOEDAS (06/09/2022)
 <https://codepen.io/ongacarol/pen/wvjaRzx?editors=1011>
 
 Aula 3 - MENTALISTA (07/09/2022)
+<https://codepen.io/ongacarol/pen/QWryBbN?editors=0010>
 
 
 >> Aula 1
