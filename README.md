@@ -8,7 +8,11 @@ Aula 2 - CONVERSOR DE MOEDAS (06/09/2022)
 <https://codepen.io/ongacarol/pen/wvjaRzx?editors=1011>
 
 Aula 3 - MENTALISTA (07/09/2022)
+<<<<<<< HEAD
 <https://codepen.io/ongacarol/pen/QWryBbN>
+=======
+<https://codepen.io/ongacarol/pen/QWryBbN?editors=0010>
+>>>>>>> aa025d300bb3c4a36da227e749c0124f88ea2d31
 
 Aula 4 - ARRAY, LISTA E ALURAFLIX (08/09/2022)
 <https://codepen.io/ongacarol/pen/NWMNYax?editors=0010>
@@ -53,6 +57,7 @@ Conteúdo:
 - Adicionar um número de tentativas para a pessoa tentar acertar e imprimir a resposta no final.
 - Quando a pessoa errar, deixar na mensagem se o número chutado é maior ou menor que o número secreto.
 - Pesquisar e aprender a diferença entre == e ===
+<<<<<<< HEAD
 
 >> Aula 4
 Conteúdo:
@@ -83,3 +88,5 @@ Conteúdo:
 - Além de colocar a imagem do filme, também adicionar o nome por meio de outro input
 - Guardar todos os filmes adicionados em uma lista/array e percorrer essa lista toda vez que quiser imprimir ou remover o filme
 - Conversor de moedas: criar funções para cada tipo de conversão e chamá-las dependendo do que você quiser fazer, podendo colocar inputs ou botões e quando clicar chamar cada função converteDolar(), converteReal(), converteEuro() e converteBitcoin(), por exemplo
+=======
+>>>>>>> aa025d300bb3c4a36da227e749c0124f88ea2d31
