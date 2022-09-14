@@ -1,22 +1,31 @@
-# imersaoDevAlura
+/# imersaoDevAlura
 Série de 10 aulas promovidos pela #Alura para introdução à programação, ministradas por @Paulo Silveira, @Rafaella Ballerini e @Guilherme Lima. 
 
 Aula 1 - VARIÁVEIS, OPERAÇÕES E MÉDIA (05/09/2022)
-<https://codepen.io/ongacarol/pen/YzLXOaY?editors=0011>
+<https://codepen.io/ongacarol/pen/YzLXOaY>
 
 Aula 2 - CONVERSOR DE MOEDAS (06/09/2022)
-<https://codepen.io/ongacarol/pen/wvjaRzx?editors=1011>
+<https://codepen.io/ongacarol/pen/wvjaRzx>
 
 Aula 3 - MENTALISTA (07/09/2022)
 <https://codepen.io/ongacarol/pen/QWryBbN>
-<https://codepen.io/ongacarol/pen/QWryBbN?editors=0010>
+<https://codepen.io/ongacarol/pen/QWryBbN>
 
 Aula 4 - ARRAY, LISTA E ALURAFLIX (08/09/2022)
-<https://codepen.io/ongacarol/pen/NWMNYax?editors=0010>
-<https://codepen.io/ongacarol/pen/RwyazwY?editors=0010>
+<https://codepen.io/ongacarol/pen/RwyazwY>
+<https://codepen.io/ongacarol/pen/NWMNYax>
 
 Aula 5 - FUNÇÕES NO ALURAFLIX (09/09/2022)
-<https://codepen.io/ongacarol/pen/vYjGoGY?editors=0010>
+<https://codepen.io/ongacarol/pen/vYjGoGY>
+
+Aula 6 - OBJETOS E TABELAS DE CLASSIFICAÇÃO (12/09/2022)
+<https://codepen.io/ongacarol/pen/MWGjppE>
+
+Aula 7 - SUPERTRUNFO - LÓGICA DO JOGO (13/09/2022)
+<https://codepen.io/ongacarol/pen/GRdjeXw>
+
+Aula 8 - SUPERTRUNFO - CARTAS DO JOGO (14/09/2022)
+<>
 
 >> Aula 1
 Conteúdo:
@@ -84,6 +93,60 @@ Conteúdo:
 - Além de colocar a imagem do filme, também adicionar o nome por meio de outro input
 - Guardar todos os filmes adicionados em uma lista/array e percorrer essa lista toda vez que quiser imprimir ou remover o filme
 - Conversor de moedas: criar funções para cada tipo de conversão e chamá-las dependendo do que você quiser fazer, podendo colocar inputs ou botões e quando clicar chamar cada função converteDolar(), converteReal(), converteEuro() e converteBitcoin(), por exemplo
+
+>> Aula 6
+Conteúdo:
+- Remover o código estático do HTML;
+- Criar um objeto no Javascript para cada jogador;
+- Criar uma função que receba um objeto como parâmetro para calcular os pontos;
+- Exibir o objeto na página HTML;
+- Criar uma função para adicionar vitória, outra para adicionar empate e uma última para adicionar derrota;
+- Recalcular os pontos quando vitória ou empate for adicionado.
+###### Desafios desta aula! 
+- Fazer a lógica de quando houver um empate, obrigatóriamente deveria já ajustar como empate para os demais jogadores
+- Validar se todos os pontos estão fazendo sentido, tanto o número de empates, quanto derrotas e vitórias com os demais jogadores (impossível haver mais vitórias que derrotas, por exemplo)
+- Adicionar a imagem de cada jogador
+- Criar um botão para zerar todos os pontos
+- Criar um botão e inputs (campos de texto) para adicionar novos jogadores, com seus respectivos dados
+- Utilizar seu jogo preferido para se basear na pontuação da sua tabela de classificação
+
+>> Aula 7
+Conteúdo:
+- Criar as cartas do jogo e definir seus atributos;
+- Desenvolver uma função para sortear uma carta para o jogador e outra para a máquina;
+- Exibindo os atributos das cartas na tela para o jogador;
+- Obter o atribudo escolhido pelo jogador e comparar com a carta da máquina;
+- Comparar o atributo de ambas as cartas e definir um vencedor.
+###### Desafios desta aula! 
+- Verificar o que acontece caso você não selecione nenhum dos atributos e como solucionar
+- Utilizar personagens que você gosta para criar as cartas e compartilhe com o pessoal lá na comunidade do Discord!
+-Adicionar a imagem do personagem assim que você selecionar a carta dele
+
+>> Aula 8
+Conteúdo:
+- Adicionando o campo imagem nos objetos com o caminho da imagem;
+- Criar uma função que exibe a carta do jogador após o sorteio das cartas;
+- Adicionar a moldura da carta;
+- Escrever o resultado na tela após o duelo das cartas informando se o jogador venceu ou perdeu;
+- Criar uma função que exibe a carta da máquina;
+- Exibir os atributos e pontos da carta da máquina.
+###### Desafios desta aula! 
+- Criar de fato um baralho, com várias outras cartas
+- Desenvolver um sistema em que a cada carta que um jogador ganhe, ele fique com a carta do oponente e vice versa
+- Transformar as funções exibirCartaMaquina() e exibirCartaJogador() em apenas uma, chamada exibirCarta(), utilizando para isso a passagem de parâmetros
+- Utilizar seus personagens e jogos preferidos nesse projeto
+
+>> Aula 9
+Conteúdo:
+
+###### Desafios desta aula! 
+
+
+>> Aula 10
+Conteúdo:
+
+###### Desafios desta aula! 
+
 
 
 #imersaodev #alura #imersaodevalura 
