@@ -25,7 +25,7 @@ Aula 7 - SUPERTRUNFO - LÓGICA DO JOGO (13/09/2022)
 <https://codepen.io/ongacarol/pen/GRdjeXw>
 
 Aula 8 - SUPERTRUNFO - CARTAS DO JOGO (14/09/2022)
-<>
+<https://codepen.io/ongacarol/pen/QWrGBPL>
 
 >> Aula 1
 Conteúdo:

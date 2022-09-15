@@ -67,7 +67,7 @@ function exibirOpcoes() {
     //Concatenando string com a variável. radio é um botão bolinha que clica e escolhe dentre as várias opções. 
     }
     opcoes.innerHTML = opcoesTexto;
-}
+}   
 
 function obtemAtributoSelecionado() {
     var radioAtributos = document.getElementsByName("atributo"); //na linha 67 - traz todos. Qual escolher? Faz um for
