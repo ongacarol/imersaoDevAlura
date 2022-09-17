@@ -27,6 +27,12 @@ Aula 7 - SUPERTRUNFO - LÓGICA DO JOGO (13/09/2022)
 Aula 8 - SUPERTRUNFO - CARTAS DO JOGO (14/09/2022)
 <https://codepen.io/ongacarol/pen/QWrGBPL>
 
+Aula 9 = FIGMA, HTML E CSS (15/09/2022)
+<https://codepen.io/ongacarol/pen/vYjgaMd?editors=1100>
+
+Aula 10 - PORTFÓLIO (16/09/2022)
+<>
+
 >> Aula 1
 Conteúdo:
 - Criar uma conta no CodePen;
@@ -138,15 +144,27 @@ Conteúdo:
 
 >> Aula 9
 Conteúdo:
-
+- Aprendemos a mexer no Figma e transformar o design em código
+- Entendemos melhor como funciona HTML e CSS
+- Estruturamos o nosso portfólio com HTML, aprendendo todas as tags necessárias pra isso
+- Estilizamos o nosso portfólio com CSS, conhecendo os seletores, propriedades e valores necessários para isso
 ###### Desafios desta aula! 
-
+- Terminar todo o design que está no figma (disponível abaixo)
+- Adicionar suas redes sociais de forma que quem clique consiga abrí-las
 
 >> Aula 10
 Conteúdo:
-
+- Utilizaremos o Figma para transformar o design em código
+- Estruturamos o nosso portfólio com HTML, aprendendo todas as tags necessárias pra isso
+- Estilizamos o nosso portfólio com CSS, conhecendo os seletores, propriedades e valores necessários para isso
+- Criamos o tema claro e escuro para o nosso portfólio
+- Fazemos a lógica em Javascript para alterar entre os temas
 ###### Desafios desta aula! 
-
+- Utilizaremos o Figma para transformar o design em código
+- Estruturamos o nosso portfólio com HTML, aprendendo todas as tags necessárias pra isso
+- Estilizamos o nosso portfólio com CSS, conhecendo os seletores, propriedades e valores necessários para isso
+- Criamos o tema claro e escuro para o nosso portfólio
+- Fazemos a lógica em Javascript para alterar entre os temas
 
 
 #imersaodev #alura #imersaodevalura 
