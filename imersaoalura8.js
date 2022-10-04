@@ -1,49 +1,100 @@
 var carta1 = {
-    nome: "Bulbasauro",
-    imagem: "http://pm1.narvii.com/6223/11335ffde96efad386b23068bb8751d77e26c1ef_00.jpg",
+    nome: "Jungkook normal",
+    imagem: "https://i.pinimg.com/originals/a7/90/d4/a790d4aa8664bfef83a5c6a460f8105c.gif",
     atributos: {
-      ataque: 7,
-      defesa: 8,
-      magia: 6
+      altura: 9,
+      singing: 10,
+      sexappeal: 10
     }
   };
   
   //console.log(carta1.atributos.ataque);
   
   var carta2 = {
-    nome: "Darth Vader",
-    imagem: "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/M3KM3Z7NBZFZBFA76SM45SGKPI.png",
+    nome: "Jimin",
+    imagem: "https://i.pinimg.com/originals/40/bf/df/40bfdff1eb7853e08ca6608c1ec017a7.gif",
     atributos: {
-      ataque: 9,
-      defesa: 3,
-      magia: 2
+        altura: 5,
+        singing: 10,
+        sexappeal: 10
     }
   };
   
   var carta3 = {
-    nome: "Carolindinha",
-    imagem: "https://w.wallha.com/ws/13/a2rRGYND.jpg",
+    nome: "Taehyung",
+    imagem: "https://i.gifer.com/origin/f3/f3d42c0d8b88270335598f5e24daf637.gif",
     atributos: {
-      ataque: 9,
-      defesa: 3,
-      magia: 2
+        altura: 8,
+        singing: 10,
+        sexappeal: 10
     }
   };
 
-var cartas = [carta1, carta2, carta3];
+    var carta4 = {
+        nome: "JK CORINGA",
+        imagem: "https://c.tenor.com/IN04bNQOKskAAAAd/bts-jk-dance-bts-fake-love.gif",
+        atributos: {
+            altura: 10,
+            singing: 10,
+            sexappeal: 1000
+        }
+  };
+
+  var carta5 = {
+    nome: "Jin",
+    imagem: "https://64.media.tumblr.com/ab90d03e2c7d85d7923b40c9391718c6/30f17f0581bfc29b-ca/s540x810/daa49db91cd036ff9de282da31b82cf882e20fac.gifv",
+    atributos: {
+        altura: 10,
+        singing: 10,
+        sexappeal: 9
+    }
+};
+
+var carta6 = {
+    nome: "Suga",
+    imagem: "https://pa1.narvii.com/6332/391f87fce226e6060c30c5f4b88494dc61957a9c_hq.gif",
+    atributos: {
+        altura: 6,
+        singing: 10,
+        sexappeal: 9
+    }
+};
+
+var carta7 = {
+    nome: "RM",
+    imagem: "https://i.pinimg.com/originals/87/cc/c8/87ccc8dd77849fc979315f8c0e975787.gif",
+    atributos: {
+        altura: 10,
+        singing: 10,
+        sexappeal: 8
+    }
+};
+
+var carta8 = {
+    nome: "J-hope",
+    imagem: "https://i.pinimg.com/originals/61/53/b6/6153b6014f3bfd9ae02bcbee67c0bbc1.gif",
+    atributos: {
+        altura: 7,
+        singing: 9,
+        sexappeal: 8
+    }
+};
+
+
+var cartas = [carta1, carta2, carta3, carta4, carta5, carta6, carta7, carta8];
 var cartaMaquina;
 var cartaJogador;
 
 
 function sortearCarta() { //tem um botão onclick no HTML para sortear a carta
-    var numeroCartaMaquina = parseInt(Math.random()*3);
+    var numeroCartaMaquina = parseInt(Math.random()*8);
     cartaMaquina = cartas[numeroCartaMaquina]; //o índice dele é random, seria o [i]
     //console.log(cartaMaquina);
 
-    var numeroCartaJogador = parseInt(Math.random()*3);
+    var numeroCartaJogador = parseInt(Math.random()*8);
     //tem que sortear até que as duas cartas saiam diferentes, não podem sair repetidas
     while (numeroCartaJogador == numeroCartaMaquina) {
-        numeroCartaJogador = parseInt(Math.random()*3);
+        numeroCartaJogador = parseInt(Math.random()*8);
     }
     cartaJogador = cartas[numeroCartaJogador]; //o índice dele é random, seria o [i]
     console.log(cartaJogador);

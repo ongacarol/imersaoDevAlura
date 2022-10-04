@@ -7,8 +7,10 @@ function Chutar() {
         resultado.innerHTML = "Você acertou!";
     } else if (chute > 10 || chute < 0) {
         resultado.innerHTML = "Você deve digitar um número de 0 a 10";
+    } else if (chute == "") {
+        resultado.innerHTML = "Digite um número"
     } else {
-        resultado.innerHTML = "Errou! O número secreto era" + numeroSecreto;
+        resultado.innerHTML = "Errou! O número secreto era " + numeroSecreto;
     }
 }
 
